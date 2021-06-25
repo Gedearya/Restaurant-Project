@@ -1,0 +1,42 @@
+/* ===== untuk component product add (formulir) */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="text"] {
+  background: transparent;
+  border: none;
+  line-height: 2.5em;
+  border-bottom: 1px solid rgb(97, 56, 41);
+  width: 400px;
+}
+input[type="number"] {
+  background: transparent;
+  border: none;
+  line-height: 2.5em;
+  border-bottom: 1px solid rgb(97, 56, 41);
+  width: 400px;
+}
+
+input:focus {
+  outline: none;
+}
+.column-view {
+  margin: 0 auto;
+  width: 27vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column-view h1 {
+  margin: 0 auto;
+}
+
+.ubah-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

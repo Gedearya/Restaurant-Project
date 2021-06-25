@@ -1,0 +1,44 @@
+body {
+  background: white}
+
+.main-table {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 260px;
+    padding: 0 2em;
+    gap: 2em;
+  }
+  
+  .main-table table,
+  .main-table th,
+  .main-table td {
+    border: 1px solid black
+  }
+  
+  .main-table td:nth-child(6) {
+    border: none;
+    border-bottom: 1px solid black
+  }
+  
+  .main-table th,
+  .main-table td {
+    padding: 1em;
+  }
+  
+  .main-table table {
+    width: 100%;
+  }
+  
+  .action-buttons button {
+    width: 100px;
+    margin: 10px;
+  }
+  
+  .main-table td img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+  }
